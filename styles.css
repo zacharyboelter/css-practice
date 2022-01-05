@@ -29,9 +29,10 @@ body {
 }
 
 .navvy-tit {
-    flex: 2;
+    flex: 1;
     display: flex;
     justify-content: center;
+    padding: 0 15px;
 }
 
 .nav-title {
@@ -60,6 +61,7 @@ body {
 
 
 .header {
-    padding-top: 40px;
+    padding: 40px 15px;
+    
 }
 
