@@ -18,16 +18,37 @@ body {
     display: flex;
     justify-content: space-between;
     background-color: rgb(91, 159, 219);
-    padding: 20px 15px;
 }
 
 .nav-logo {
-    
+    margin-left: 20px;
+    font-size: larger;
+    flex: 1;
+    padding: 20px 15px;
 
 }
 
+.navvy-tit {
+    flex: 2;
+    display: flex;
+    justify-content: center;
+}
+
+.nav-title {
+   text-align: center;
+    font-size: 32px;
+    
+}
+
+.nav-items-right {
+    flex: 1;
+    padding: 20px 15px;
+
+}
 .nav-item {
     padding: 0 20px;
+    font-size: larger;
+    
 }
 
 .wrapper {
@@ -37,7 +58,8 @@ body {
 
 }
 
+
 .header {
-    
+    padding-top: 40px;
 }
 
