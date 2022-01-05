@@ -9,3 +9,19 @@ if (value == "ECMAScript") {
 };
 
 
+let num = prompt('Enter a number', '');
+
+if (num >= 1) {
+    alert(1)
+} else if (num <= -1) {
+    alert(-1)
+} else {
+    alert(0)
+}
+
+
+
+let message = (login == 'Employee') ? 'Hello' :
+(login == 'Director') ? 'Greetings' :
+(login == '') ? 'No login' :
+''
