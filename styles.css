@@ -11,12 +11,19 @@ body {
 .container {
     display: flex;
     flex-direction: column;
-    margin: 30px 200px;
+    margin: 0 auto;
 }
 
 .navigation-container {
     display: flex;
     justify-content: space-between;
+    background-color: rgb(91, 159, 219);
+    padding: 20px 15px;
+}
+
+.nav-logo {
+    
+
 }
 
 .nav-item {
